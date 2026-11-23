@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dungeons and Dragons · Forja</title>
+<link rel="icon" href="assets/img/logo.png">
+<link rel="stylesheet" href="css/style.css">
+<script>try{if(localStorage.getItem('forja-logado')==='1')document.documentElement.classList.add('logado')}catch(e){}</script>
+</head>
+<body>
+<div class="app ">
+<header class="topo">
+  <a class="logo" href="home.html" aria-label="Forja — página inicial"></a>
+  <form class="busca" role="search">
+    <label class="sr-only" for="q">Buscar</label>
+    <input id="q" type="search" autocomplete="off">
+    <button type="submit" aria-label="Buscar"><svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="12.5" cy="12.5" r="9" fill="none" stroke="#fff" stroke-width="3.2"/><path d="M19.5 19.5 29 29" stroke="#fff" stroke-width="4.5" stroke-linecap="round"/></svg></button>
+    <ul class="busca__sugestoes"></ul>
+  </form>
+  <a class="avatar-topo avatar-padrao" href="perfil-beatriz.html" aria-label="Meu perfil"><svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="38" r="20" fill="#a6d1fb"/><path d="M14 100c0-22 16-34 36-34s36 12 36 34z" fill="#a6d1fb"/></svg></a>
+</header>
+<main class="conteudo fundo-metal">
+  <article class="sistema">
+    <a class="voltar" href="home.html" aria-label="Voltar"><svg viewBox="0 0 12 20" aria-hidden="true"><path d="M10 2 2 10l8 8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+    <div class="sistema__capa"><img src="assets/img/dnd-capa.jpg" alt="Dungeons and Dragons"></div>
+    <h1>Dungeons and Dragons</h1>
+    <p class="ficha">Classificação indicativa: 12+<br>Duração média: 300 min<br>Número de jogadores: 2 a 20 jogadores</p>
+    <p>Lançado pela primeira vez em 1974, Dungeons and Dragons, conhecido também como D&amp;D, é jogo de interpretação de papéis de alta fantasia criado por Gary Gygax e Dave Arneson, se tornou o RPG de mesa mais clássico de todos os tempos ao estabelecer e definir o formato do gênero que conhecemos hoje.</p>
+    <nav class="menu-sistema" aria-label="Seções de Dungeons and Dragons">
+      <a href="dnd-como-jogar.html">Como jogar?</a>
+      <a href="dnd-status.html">Status</a>
+      <a href="dnd-pericias.html">Perícias</a>
+      <details>
+      <summary>Comentários</summary>
+      <div class="comentarios">
+        <form><label class="sr-only" for="novo-coment">Comentário</label><textarea id="novo-coment" placeholder="Escreva um comentário..."></textarea><button type="submit">Publicar</button></form>
+        <p class="sem-comentarios">Nenhum comentário ainda. Seja o primeiro!</p>
+      </div>
+    </details>
+      <a class="destaque" href="campanhas.html">Campanhas disponíveis</a>
+    </nav>
+    <p class="fonte-ref">Fonte: CRAWFORD, Jeremy; MEARLS, Mike. Dungeons &amp; Dragons: livro do jogador. Tradução de Carine de Aguiar Fontes. São Paulo: Wizards of the Coast, 2019.</p>
+  </article>
+</main>
+<footer class="rodape">
+  <div>
+    <h2>Sobre nós</h2>
+    <ul><li><a href="quem-somos.html">Equipe</a></li><li><a href="mailto:contato@forja.com">Contato</a></li></ul>
+  </div>
+  <div>
+    <h2>Comunidade</h2>
+    <ul><li><a href="https://instagram.com" target="_blank" rel="noopener">instagram</a></li><li><a href="https://discord.com" target="_blank" rel="noopener">discord</a></li><li><a href="https://reddit.com" target="_blank" rel="noopener">reddit</a></li></ul>
+  </div>
+</footer>
+</div>
+<template id="svg-avatar"><svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="38" r="20" fill="#a6d1fb"/><path d="M14 100c0-22 16-34 36-34s36 12 36 34z" fill="#a6d1fb"/></svg></template><script src="js/main.js"></script>
+</body>
+</html>

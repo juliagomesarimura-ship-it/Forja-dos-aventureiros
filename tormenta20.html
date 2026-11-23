@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tormenta 20 · Forja</title>
+<link rel="icon" href="assets/img/logo.png">
+<link rel="stylesheet" href="css/style.css">
+<script>try{if(localStorage.getItem('forja-logado')==='1')document.documentElement.classList.add('logado')}catch(e){}</script>
+</head>
+<body>
+<div class="app ">
+<header class="topo">
+  <a class="logo" href="home.html" aria-label="Forja — página inicial"></a>
+  <form class="busca" role="search">
+    <label class="sr-only" for="q">Buscar</label>
+    <input id="q" type="search" autocomplete="off">
+    <button type="submit" aria-label="Buscar"><svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="12.5" cy="12.5" r="9" fill="none" stroke="#fff" stroke-width="3.2"/><path d="M19.5 19.5 29 29" stroke="#fff" stroke-width="4.5" stroke-linecap="round"/></svg></button>
+    <ul class="busca__sugestoes"></ul>
+  </form>
+  <a class="avatar-topo avatar-padrao" href="perfil-beatriz.html" aria-label="Meu perfil"><svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="38" r="20" fill="#a6d1fb"/><path d="M14 100c0-22 16-34 36-34s36 12 36 34z" fill="#a6d1fb"/></svg></a>
+</header>
+<main class="conteudo fundo-metal">
+  <article class="sistema">
+    <a class="voltar" href="home.html" aria-label="Voltar"><svg viewBox="0 0 12 20" aria-hidden="true"><path d="M10 2 2 10l8 8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+    <div class="sistema__capa"><img src="assets/img/tormenta-capa.jpg" alt="Tormenta 20"></div>
+    <h1>Tormenta 20</h1>
+    <p class="ficha">Classificação indicativa: 12+<br>Duração média: 120 min<br>Número de jogadores: 2 a 12 jogadores</p>
+    <p>Tormenta é um universo de fantasia que abrange romances, histórias em quadrinhos, jogos de RPG em outros produtos. Foi criado em 1999 por Marcelo Cassaro, Rogério Saladino e JM Trevisan, como um encarte especial comemorativo de 50 edições da revista Dragão Brasil. Em 2005, os títulos de Tormenta passaram a ser publicado pela Jambô Editora.</p>
+    <p>Com mais de 20 anos de publicação, Tormenta é o maior e mais celebrado jogo de RPG de mesa brasileiro. Em 2019, através de uma campanha de financiamento coletivo, foi lançado Tormenta 20, o novo manual de regras básicas do jogo.</p>
+    <nav class="menu-sistema" aria-label="Seções de Tormenta 20">
+      <a href="tormenta20-como-jogar.html">Como jogar?</a>
+      <a href="tormenta20-status.html">Status</a>
+      <a href="tormenta20-pericias.html">Perícias</a>
+      <details>
+      <summary>Comentários</summary>
+      <div class="comentarios">
+        <form><label class="sr-only" for="novo-coment">Comentário</label><textarea id="novo-coment" placeholder="Escreva um comentário..."></textarea><button type="submit">Publicar</button></form>
+        <p class="sem-comentarios">Nenhum comentário ainda. Seja o primeiro!</p>
+      </div>
+    </details>
+      <a class="destaque" href="campanhas.html">Campanhas disponíveis</a>
+    </nav>
+    <p class="fonte-ref">Fonte: CASSARO, Marcelo et al. Tormenta20: livro básico: edição jogo do ano. Porto Alegre: Jambô Editora, 2022.</p>
+  </article>
+</main>
+<footer class="rodape">
+  <div>
+    <h2>Sobre nós</h2>
+    <ul><li><a href="quem-somos.html">Equipe</a></li><li><a href="mailto:contato@forja.com">Contato</a></li></ul>
+  </div>
+  <div>
+    <h2>Comunidade</h2>
+    <ul><li><a href="https://instagram.com" target="_blank" rel="noopener">instagram</a></li><li><a href="https://discord.com" target="_blank" rel="noopener">discord</a></li><li><a href="https://reddit.com" target="_blank" rel="noopener">reddit</a></li></ul>
+  </div>
+</footer>
+</div>
+<template id="svg-avatar"><svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="38" r="20" fill="#a6d1fb"/><path d="M14 100c0-22 16-34 36-34s36 12 36 34z" fill="#a6d1fb"/></svg></template><script src="js/main.js"></script>
+</body>
+</html>

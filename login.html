@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Login · Forja</title>
+<link rel="icon" href="assets/img/logo.png">
+<link rel="stylesheet" href="css/style.css">
+<script>try{if(localStorage.getItem('forja-logado')==='1')document.documentElement.classList.add('logado')}catch(e){}</script>
+</head>
+<body>
+<div class="app ">
+<main class="auth">
+  <a class="logo logo--grande" href="index.html" aria-label="Voltar ao início"></a>
+  <h1>Login</h1>
+  <form data-destino="home.html" data-logar novalidate style="margin-top:180px">
+    <div class="campo"><input type="text" placeholder="Nome do Usuário ou Email" aria-label="Nome do Usuário ou Email" required></div>
+    <div class="campo"><input type="password" placeholder="Senha" aria-label="Senha" name="senha" required><button type="button" class="olho" aria-label="Mostrar senha"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="3" fill="currentColor"/><path d="M4 20 20 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button></div>
+    <p class="esqueceu">Esqueceu a senha? <a href="#">Clique aqui</a></p>
+    <button class="btn btn--retangulo" type="submit">Login</button>
+  </form>
+</main>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>

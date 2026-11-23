@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>@PedroGiacomo · Forja</title>
+<link rel="icon" href="assets/img/logo.png">
+<link rel="stylesheet" href="css/style.css">
+<script>try{if(localStorage.getItem('forja-logado')==='1')document.documentElement.classList.add('logado')}catch(e){}</script>
+</head>
+<body>
+<div class="app chat-app">
+<header class="topo topo--textura"><a class="logo" href="home.html" aria-label="Forja — página inicial"></a><a class="topo__usuario" href="perfil-pedro.html">@PedroGiacomo</a></header>
+<main class="chat">
+  <div class="mensagens" aria-live="polite">
+    <div class="msg msg--eu">Olá, eu li a sinopse de Horizonte de cobiças e gostaria muito de participar!<br>Poderia me enviar mais informações por favor.</div>
+    <div class="msg msg--outro"><small>Pedro</small>Olá! Fico feliz que se interessou, entre no grupo a História e conhecer as regras: <a href="https://discord.com" target="_blank" rel="noopener">https://discord.gg/xxxxxxxxx</a></div>
+    <div class="msg msg--eu"><small>Usuário</small>Obrigada!</div>
+  </div>
+  <form class="envio">
+    <button type="button" class="mais" aria-label="Anexar">+</button>
+    <label class="sr-only" for="msg">Mensagem</label>
+    <input id="msg" type="text" placeholder="Enviar uma mensagem" autocomplete="off">
+  </form>
+</main>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>

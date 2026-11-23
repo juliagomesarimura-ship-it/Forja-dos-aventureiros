@@ -1,0 +1,15 @@
+FORJA - protótipo em HTML/CSS (a partir do PDF "Esqueleto - Forja")
+
+Abra index.html no navegador (é a tela "Seja bem vindo!", página 12 do PDF).
+
+Fluxos:
+- Entrar como visitante -> home.html (sem avatar no topo)
+- Fazer Login / Criar conta -> home.html logado (avatar no topo, card "Publicar sistema")
+- "Sair da conta" no perfil volta para o modo visitante.
+
+Estrutura:
+  index.html ........ boas-vindas (pág. 12)
+  css/style.css ..... estilos compartilhados
+  js/main.js ........ login simulado, busca, chat, comentários
+  assets/img/ ....... imagens extraídas do PDF
+As fontes (Fondamento, Acme, Inter) são carregadas do Google Fonts.

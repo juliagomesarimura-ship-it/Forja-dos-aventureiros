@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Criar conta · Forja</title>
+<link rel="icon" href="assets/img/logo.png">
+<link rel="stylesheet" href="css/style.css">
+<script>try{if(localStorage.getItem('forja-logado')==='1')document.documentElement.classList.add('logado')}catch(e){}</script>
+</head>
+<body>
+<div class="app ">
+<main class="auth">
+  <a class="logo logo--grande" href="index.html" aria-label="Voltar ao início"></a>
+  <h1>Criar conta</h1>
+  <form data-destino="nome-perfil.html" novalidate>
+    <div class="campo"><input type="text" placeholder="Nome Completo" aria-label="Nome Completo" required></div>
+    <div class="campo"><input type="text" placeholder="Data de nascimento" aria-label="Data de nascimento" required></div>
+    <div class="campo"><input type="email" placeholder="nome@email.com" aria-label="nome@email.com" required></div>
+    <div class="campo"><input type="password" placeholder="Criar senha" aria-label="Criar senha" name="senha" required><button type="button" class="olho" aria-label="Mostrar senha"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="3" fill="currentColor"/><path d="M4 20 20 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button></div>
+    <div class="campo"><input type="password" placeholder="Confirmar senha" aria-label="Confirmar senha" name="confirmar" required><button type="button" class="olho" aria-label="Mostrar senha"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="3" fill="currentColor"/><path d="M4 20 20 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button></div>
+    <label class="aceite"><input type="checkbox" required> <span>Li e concordo com os <a href="#">Termos de Condição</a> e com a <a href="#">Política de Privacidade</a>.</span></label>
+    <button class="btn btn--retangulo" type="submit">Próximo</button>
+  </form>
+</main>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>

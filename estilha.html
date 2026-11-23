@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Estilha · Forja</title>
+<link rel="icon" href="assets/img/logo.png">
+<link rel="stylesheet" href="css/style.css">
+<script>try{if(localStorage.getItem('forja-logado')==='1')document.documentElement.classList.add('logado')}catch(e){}</script>
+</head>
+<body>
+<div class="app ">
+<header class="topo">
+  <a class="logo" href="home.html" aria-label="Forja — página inicial"></a>
+  <form class="busca" role="search">
+    <label class="sr-only" for="q">Buscar</label>
+    <input id="q" type="search" autocomplete="off">
+    <button type="submit" aria-label="Buscar"><svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="12.5" cy="12.5" r="9" fill="none" stroke="#fff" stroke-width="3.2"/><path d="M19.5 19.5 29 29" stroke="#fff" stroke-width="4.5" stroke-linecap="round"/></svg></button>
+    <ul class="busca__sugestoes"></ul>
+  </form>
+  <a class="avatar-topo avatar-padrao" href="perfil-beatriz.html" aria-label="Meu perfil"><svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="38" r="20" fill="#a6d1fb"/><path d="M14 100c0-22 16-34 36-34s36 12 36 34z" fill="#a6d1fb"/></svg></a>
+</header>
+<main class="conteudo fundo-metal">
+  <article class="sistema">
+    <a class="voltar" href="home.html" aria-label="Voltar"><svg viewBox="0 0 12 20" aria-hidden="true"><path d="M10 2 2 10l8 8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+    <div class="sistema__capa"><img src="assets/img/estilha.jpg" alt="Estilha"></div>
+    <h1>Estilha</h1>
+    <p>Estilha é um Sistema de RPG de mistério e ficção científica desenvolvido por Gabriel Arruda Oliveira em 2019, inspirado nos clássicos da fantasia científica, como Star Wars e Prometheus.</p>
+    <p>Explore e descubra os segredos escondidos nesse mundo eclético e fragmentado.</p>
+    <nav class="menu-sistema" aria-label="Seções de Estilha">
+      <a href="estilha-como-jogar.html">Como jogar?</a>
+      <a href="estilha-status.html">Status</a>
+      <a href="estilha-pericias.html">Perícias</a>
+      <details>
+      <summary>Comentários</summary>
+      <div class="comentarios">
+        <form><label class="sr-only" for="novo-coment">Comentário</label><textarea id="novo-coment" placeholder="Escreva um comentário..."></textarea><button type="submit">Publicar</button></form>
+        <div class="comentario"><div class="av"><img src="assets/img/avatar-xamito.jpg" alt=""></div><a class="nome" href="perfil-xamito.html">Xamito</a><p>Joguei com os meus amigos recentemente e gostei muito!</p></div>
+<div class="comentario"><div class="av avatar-padrao"><svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="38" r="20" fill="#a6d1fb"/><path d="M14 100c0-22 16-34 36-34s36 12 36 34z" fill="#a6d1fb"/></svg></div><span class="nome">Bear45</span><p>Demorei um pouco para entender a mecânica, mas depois de ler algumas vezes consegui mestrar.</p></div>
+
+      </div>
+    </details>
+      <a class="destaque" href="campanhas.html">Campanhas disponíveis</a>
+    </nav>
+    
+  </article>
+</main>
+<footer class="rodape">
+  <div>
+    <h2>Sobre nós</h2>
+    <ul><li><a href="quem-somos.html">Equipe</a></li><li><a href="mailto:contato@forja.com">Contato</a></li></ul>
+  </div>
+  <div>
+    <h2>Comunidade</h2>
+    <ul><li><a href="https://instagram.com" target="_blank" rel="noopener">instagram</a></li><li><a href="https://discord.com" target="_blank" rel="noopener">discord</a></li><li><a href="https://reddit.com" target="_blank" rel="noopener">reddit</a></li></ul>
+  </div>
+</footer>
+</div>
+<template id="svg-avatar"><svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="38" r="20" fill="#a6d1fb"/><path d="M14 100c0-22 16-34 36-34s36 12 36 34z" fill="#a6d1fb"/></svg></template><script src="js/main.js"></script>
+</body>
+</html>
